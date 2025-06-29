@@ -1,7 +1,9 @@
 🛡️ Credit Card Fraud Detection
+
 A machine learning project focused on detecting fraudulent credit card transactions using real-world data. This project explores both supervised and unsupervised approaches, supported with proper data preprocessing and model evaluation techniques.
 
 🔍 Features & Techniques
+
 Dataset: creditcard.csv — contains transaction data including anonymized features and class labels (fraudulent or not).
 
 Data Preprocessing:
@@ -44,18 +46,18 @@ SVM.ipynb
 Clone the repository:
 
 bash
-Copy code
+Copy
+Edit
 git clone https://github.com/your-username/credit-card-fraud-detection.git
 cd credit-card-fraud-detection
 Install dependencies:
 
 bash
-Copy code
+Copy
+Edit
 pip install -r requirements.txt
+
 Run the notebooks in Jupyter or VS Code.
-
-
-
 1. Decision Tree Classifie
 ![Screenshot 2025-06-29 195445](https://github.com/user-attachments/assets/1060ecb8-3ca4-4007-b681-bc0a3b16b3f6)
 ![Screenshot 2025-06-29 195929](https://github.com/user-attachments/assets/7b9bbb92-4e09-45e5-9564-78bea5dcc18e)
