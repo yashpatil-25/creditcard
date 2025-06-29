@@ -17,12 +17,14 @@ Applied StandardScaler for scaling features like Time and Amount.
 Stratified train-test split for balanced evaluation.
 
 🤖 Machine Learning Models Applied
-Algorithm	Type	Notes
-K-Nearest Neighbors (KNN)	Supervised	Used n_neighbors=5, accuracy evaluated post-scaling.
-K-Means Clustering	Unsupervised	Clustering anomaly detection; compared clusters with true class.
-Decision Tree Classifier	Supervised	Simple and interpretable; evaluated with accuracy.
-Random Forest Classifier	Supervised	Ensemble of decision trees, robust to overfitting.
-Support Vector Machine (SVM)	Supervised	Good for high-dimensional data; trained on scaled features.
+| Algorithm                        | Type         | Notes                                                            |
+| -------------------------------- | ------------ | ---------------------------------------------------------------- |
+| **K-Nearest Neighbors (KNN)**    | Supervised   | Used `n_neighbors=5`, accuracy evaluated post-scaling.           |
+| **K-Means Clustering**           | Unsupervised | Clustering anomaly detection; compared clusters with true class. |
+| **Decision Tree Classifier**     | Supervised   | Simple and interpretable; evaluated with accuracy.               |
+| **Random Forest Classifier**     | Supervised   | Ensemble of decision trees, robust to overfitting.               |
+| **Support Vector Machine (SVM)** | Supervised   | Good for high-dimensional data; trained on scaled features.      |
+
 
 📊 Evaluation
 Used Accuracy Score to measure model performance.
