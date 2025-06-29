@@ -1,59 +1,60 @@
-# 🛡️ Credit Card Fraud Detection
+🛡️ Credit Card Fraud Detection
+A machine learning project focused on detecting fraudulent credit card transactions using real-world data. This project explores both supervised and unsupervised approaches, supported with proper data preprocessing and model evaluation techniques.
 
-A machine learning project aimed at detecting fraudulent credit card transactions using real-world data. This project involved data cleaning, feature scaling, model training, and performance evaluation.
+🔍 Features & Techniques
+Dataset: creditcard.csv — contains transaction data including anonymized features and class labels (fraudulent or not).
 
----
+Data Preprocessing:
 
-## 🔍 Features and Techniques Applied
+Handled null values and removed duplicate entries.
 
-### 📁 Dataset Handling
+Used boxplots for outlier detection and feature distribution analysis.
 
-* Loaded `creditcard.csv` using **pandas**
-* Checked for **null values** and removed **duplicate rows**
-* Used **boxplot** to visualize potential outliers
+Applied StandardScaler for scaling features like Time and Amount.
 
-### 🧹 Data Preprocessing
+Stratified train-test split for balanced evaluation.
 
-* Split data into `X` (features) and `y` (target)
-* Performed **train-test split** with `stratify=y`
-* Applied **StandardScaler** to normalize `Time` and `Amount` features
+🤖 Machine Learning Models Applied
+Algorithm	Type	Notes
+K-Nearest Neighbors (KNN)	Supervised	Used n_neighbors=5, accuracy evaluated post-scaling.
+K-Means Clustering	Unsupervised	Clustering anomaly detection; compared clusters with true class.
+Decision Tree Classifier	Supervised	Simple and interpretable; evaluated with accuracy.
+Random Forest Classifier	Supervised	Ensemble of decision trees, robust to overfitting.
+Support Vector Machine (SVM)	Supervised	Good for high-dimensional data; trained on scaled features.
 
-### 🤖 Machine Learning Models
+📊 Evaluation
+Used Accuracy Score to measure model performance.
 
-Applied and evaluated five algorithms (used **boxplot** prior to each for outlier analysis):
+Visual analysis via boxplots for each model to observe feature distribution and detect anomalies.
 
-1. **K-Nearest Neighbors (KNN)**
+📁 Notebooks
+Each model is implemented and evaluated in its own Jupyter Notebook:
 
-   * Supervised classification
-   * `n_neighbors=5`
-   * Boxplot analysis before training
+KNNcreditcard.ipynb
 
-2. **K-Means Clustering**
+K Means.ipynb
 
-   * Unsupervised anomaly detection
-   * Compared cluster labels to true `Class`
-   * Boxplot used to assess cluster patterns
+Desiontreecreditcard.ipynb
 
-3. **Random Forest Classifier**
+Randomforestcreditcard.ipynb
 
-   * Ensemble method using decision trees
-   * Boxplot used for initial feature distribution check
+SVM.ipynb
 
-4. **Support Vector Machine (SVM)**
+📌 How to Run
+Clone the repository:
 
-   * Effective in high-dimensional space
-   * Boxplot used to evaluate scaled feature ranges
+bash
+Copy code
+git clone https://github.com/your-username/credit-card-fraud-detection.git
+cd credit-card-fraud-detection
+Install dependencies:
 
-5. **Decision Tree Classifier**
+bash
+Copy code
+pip install -r requirements.txt
+Run the notebooks in Jupyter or VS Code.
 
-   * Fast and interpretable model
-   * Boxplot applied to detect skewed feature values
 
-### 📏 Evaluation Metrics
-
-* Used **accuracy score** for initial evaluation
-
----
 
 1. Decision Tree Classifie
 ![Screenshot 2025-06-29 195445](https://github.com/user-attachments/assets/1060ecb8-3ca4-4007-b681-bc0a3b16b3f6)
