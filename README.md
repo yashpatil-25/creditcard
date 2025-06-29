@@ -69,3 +69,5 @@ Applied and evaluated five algorithms (used **boxplot** prior to each for outlie
 ![Screenshot 2025-06-29 200520](https://github.com/user-attachments/assets/84cdd7c6-b84e-4c64-a642-8356cd00d30e)
 
 5.K-Nearest Neighbors
+![Screenshot 2025-06-29 203506](https://github.com/user-attachments/assets/f589e35b-b99e-4136-9905-47a22c42b3d8)
+
