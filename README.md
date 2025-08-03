@@ -60,6 +60,9 @@ Edit
 pip install -r requirements.txt
 
 Run the notebooks in Jupyter or VS Code.
+
+Demo Video
+https://vimeo.com/1106890871
 1. Decision Tree Classifie
 ![Screenshot 2025-06-29 195445](https://github.com/user-attachments/assets/1060ecb8-3ca4-4007-b681-bc0a3b16b3f6)
 ![Screenshot 2025-06-29 195929](https://github.com/user-attachments/assets/7b9bbb92-4e09-45e5-9564-78bea5dcc18e)
