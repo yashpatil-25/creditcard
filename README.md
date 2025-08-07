@@ -1,8 +1,8 @@
-🛡️ Credit Card Fraud Detection
+# Credit Card Fraud Detection
 
 A machine learning project focused on detecting fraudulent credit card transactions using real-world data. This project explores both supervised and unsupervised approaches, supported with proper data preprocessing and model evaluation techniques.
 
-🔍 Features & Techniques
+# Features & Techniques
 
 Dataset: creditcard.csv — contains transaction data including anonymized features and class labels (fraudulent or not).
 
@@ -16,7 +16,7 @@ Applied StandardScaler for scaling features like Time and Amount.
 
 Stratified train-test split for balanced evaluation.
 
-🤖 Machine Learning Models Applied
+# Machine Learning Models Applied
 | Algorithm                        | Type         | Notes                                                            |
 | -------------------------------- | ------------ | ---------------------------------------------------------------- |
 | **K-Nearest Neighbors (KNN)**    | Supervised   | Used `n_neighbors=5`, accuracy evaluated post-scaling.           |
@@ -26,12 +26,12 @@ Stratified train-test split for balanced evaluation.
 | **Support Vector Machine (SVM)** | Supervised   | Good for high-dimensional data; trained on scaled features.      |
 
 
-📊 Evaluation
+# Evaluation
 Used Accuracy Score to measure model performance.
 
 Visual analysis via boxplots for each model to observe feature distribution and detect anomalies.
 
-📁 Notebooks
+# Notebooks
 Each model is implemented and evaluated in its own Jupyter Notebook:
 
 KNNcreditcard.ipynb
